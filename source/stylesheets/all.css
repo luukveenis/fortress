@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.side-nav {
+  width: 400px;
+  height: 100%;
+  float: left;
+  background-color: #444;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav.vertical li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.main-content {
+  width: calc(100% - 400px);
+  height: 100%;
+  float: right;
+  background-color: #E6E6E6;
+}
+
+ul.navbar {
+
+}
+
+.bio {
+  margin-top: 100px;
+}
+
+.bio-description {
+  margin: 20px 0;
+  color: #CCC;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+}
