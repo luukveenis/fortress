@@ -21,6 +21,8 @@ nav > ul {
 
 nav > ul > li {
   margin: 0;
+  display: flex;
+
 }
 
 nav.vertical li a {
@@ -45,6 +47,18 @@ nav.vertical .active:hover {
 
 nav.vertical li:hover {
   background-color: #444;
+}
+
+nav .icon {
+  display: block;
+  width: 30px;
+  padding: 15px 20px;
+  font-size: 1.8em;
+  color: #999;
+}
+
+nav .active .icon {
+  color: #34BBA7;
 }
 
 .main-content {

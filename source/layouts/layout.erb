@@ -16,6 +16,7 @@
 
     <!-- Skeleton requires the Raleway font from Google -->
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <%= stylesheet_link_tag "normalize", "skeleton", "all" %>
     <%= javascript_include_tag  "all" %>
@@ -36,11 +37,11 @@
       </div>
       <nav class="vertical">
         <ul>
-          <li class="active"><%= link_to 'About Me', '/about' %></li>
-          <li><%= link_to 'Blog', '/blog' %></li>
-          <li><%= link_to 'Portfolio', '/portfolio' %></li>
-          <li><%= link_to 'Resume', '/resume' %></li>
-          <li><%= link_to 'Contact', '/contact' %></li>
+          <li class="active"><i class="fa fa-user icon"></i><%= link_to 'About Me', '/about' %></li>
+          <li><i class="fa fa-newspaper-o icon"></i><%= link_to 'Blog', '/blog' %></li>
+          <li><i class="fa fa-briefcase icon"></i><%= link_to 'Portfolio', '/portfolio' %></li>
+          <li><i class="fa fa-file-text-o icon"></i><%= link_to 'Resume', '/resume' %></li>
+          <li><i class="fa fa-phone icon"></i><%= link_to 'Contact', '/contact' %></li>
         </ul>
       </nav>
     </div>
