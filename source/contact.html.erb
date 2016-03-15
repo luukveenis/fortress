@@ -1,0 +1,15 @@
+---
+title: Hi, I'm Luuk Veenis
+---
+
+<% content_for :navbar do %>
+        <ul>
+          <li><i class="fa fa-user icon"></i><%= link_to 'About Me', '/index.html' %></li>
+          <li><i class="fa fa-newspaper-o icon"></i><%= link_to 'Blog', '/blog' %></li>
+          <li><i class="fa fa-briefcase icon"></i><%= link_to 'Portfolio', '/portfolio' %></li>
+          <li><i class="fa fa-file-text-o icon"></i><%= link_to 'Resume', '/resume' %></li>
+          <li class="active"><i class="fa fa-phone icon"></i><%= link_to 'Contact', '/contact.html' %></li>
+        </ul>
+<% end %>
+
+<p>This is the contact page...</p>
