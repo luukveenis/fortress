@@ -36,13 +36,7 @@
         </div>
       </div>
       <nav class="vertical">
-        <ul>
-          <li class="active"><i class="fa fa-user icon"></i><%= link_to 'About Me', '/about' %></li>
-          <li><i class="fa fa-newspaper-o icon"></i><%= link_to 'Blog', '/blog' %></li>
-          <li><i class="fa fa-briefcase icon"></i><%= link_to 'Portfolio', '/portfolio' %></li>
-          <li><i class="fa fa-file-text-o icon"></i><%= link_to 'Resume', '/resume' %></li>
-          <li><i class="fa fa-phone icon"></i><%= link_to 'Contact', '/contact' %></li>
-        </ul>
+        <%= yield_content :navbar %>
       </nav>
     </div>
     <div class="main-content">
