@@ -24,16 +24,21 @@ nav > ul {
 
 nav > ul > li {
   margin: 0;
-  display: flex;
+  display: block;
 
 }
 
 nav.vertical li a {
-  display: block;
-  padding: 15px;
+  display: flex;
   text-decoration: none;
   font-size: 1.2em;
   color: #999;
+}
+
+nav.vertical li .link-text {
+  display: inline-block;
+  max-width: 300px;
+  padding: 15px 10px;
 }
 
 nav.vertical .active {
@@ -71,7 +76,7 @@ nav .active .icon {
 .bio-description {
   margin: 20px 0;
   color: #CCC;
-  font-size: 1.8em;
+  font-size: 1.1em;
   text-align: center;
 }
 

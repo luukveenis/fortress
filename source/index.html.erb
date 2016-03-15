@@ -4,11 +4,31 @@ title: Hi, I'm Luuk Veenis
 
 <% content_for :navbar do %>
         <ul>
-          <li class="active"><i class="fa fa-user icon"></i><%= link_to 'About Me', '/index.html' %></li>
-          <li><i class="fa fa-newspaper-o icon"></i><%= link_to 'Blog', '/blog' %></li>
-          <li><i class="fa fa-briefcase icon"></i><%= link_to 'Portfolio', '/portfolio' %></li>
-          <li><i class="fa fa-file-text-o icon"></i><%= link_to 'Resume', '/resume' %></li>
-          <li><i class="fa fa-phone icon"></i><%= link_to 'Contact', '/contact.html' %></li>
+          <li class="active">
+            <% link_to 'index.html' do %>
+              <i class="fa fa-user icon"></i><span class="link-text">About Me</span>
+            <% end %>
+          </li>
+          <li>
+            <% link_to '#' do %>
+              <i class="fa fa-newspaper-o icon"></i><span class="link-text">Blog</span>
+            <% end %>
+          </li>
+          <li>
+            <% link_to '#' do %>
+              <i class="fa fa-briefcase icon"></i><span class="link-text">Portfolio</span>
+            <% end %>
+          </li>
+          <li>
+            <% link_to '#' do %>
+              <i class="fa fa-file-text-o icon"></i><span class="link-text">Resume</span>
+            <% end %>
+          </li>
+          <li>
+            <% link_to 'contact.html' do %>
+              <i class="fa fa-phone icon"></i><span class="link-text">Contact Me</span>
+            <% end %>
+          </li>
         </ul>
 <% end %>
 
