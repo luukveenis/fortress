@@ -97,3 +97,41 @@ nav .active .icon {
   float: right;
   background-color: #E6E6E6;
 }
+
+.container {
+  margin: 60px 0 0 80px;
+}
+
+.page-title {
+  font-weight: 400;
+}
+
+.social-media {
+  margin: 10px 0;
+}
+
+.social-media .social-link {
+  display: flex;
+  text-decoration: none;
+}
+
+.social-media .description {
+  display: inline-block;
+  margin: auto 20px;
+}
+
+.facebook {
+  color: #385385;
+}
+
+.linkedin {
+  color: #1F6A9E;
+}
+
+.google {
+  color: #CB4A45;
+}
+
+.twitter {
+  color: #71C8DD;
+}

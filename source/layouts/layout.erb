@@ -15,7 +15,7 @@
     <meta name="author" content="Luuk Veenis">
 
     <!-- Skeleton requires the Raleway font from Google -->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <%= stylesheet_link_tag "normalize", "skeleton", "all" %>
@@ -28,7 +28,7 @@
     <div class="side-nav">
       <div class="bio">
         <% link_to '/' do %>
-          <%= image_tag 'avatar_cropped.jpg', width: '200px', class: 'luuk avatar' %>
+          <%= image_tag 'avatar_cropped.jpg', width: '200px', class: 'avatar' %>
         <% end %>
         <div class='bio-description'>
           <h1>Luuk Veenis</h1>
@@ -40,7 +40,6 @@
       </nav>
     </div>
     <div class="main-content">
-      <h2>This is my main content</h2>
       <%= yield %>
     </div>
   </body>
