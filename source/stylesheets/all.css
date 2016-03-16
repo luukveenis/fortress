@@ -83,6 +83,7 @@ nav .active .icon {
 .avatar {
   display: block;
   margin: 0 auto;
+  border-radius: 50%;
 }
 
 /* -------- End Navigation Styles -------- */
