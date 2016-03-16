@@ -77,3 +77,32 @@ title: Hi, I'm Luuk Veenis
     </div>
   </div>
 </div>
+<div class="section-half">
+  <div class="container">
+    <% form_tag 'mailto:luukveenis@gmail.com', class: 'contact-form' do %>
+      <h2>Send me a message</h2>
+      <div class="row">
+        <div class="six columns">
+          <% field_set_tag do %>
+            <p>
+              <%= label_tag :name, caption: 'Your name' %>
+              <%= text_field_tag :username, class: 'u-full-width' %>
+            </p>
+            <p>
+              <%= label_tag :email, caption: 'Your email' %>
+              <%= text_field_tag :email, class: 'u-full-width' %>
+            </p>
+          <% end %>
+        </div>
+        <div class="six columns">
+          <% field_set_tag do %>
+            <p>
+              <%= label_tag :message, caption: 'Your message' %>
+              <%= text_area_tag :message, class: 'u-full-width' %>
+          <% end %>
+        </div>
+      </div>
+      <%= submit_tag 'Send', class: 'button-primary' %>
+    <% end %>
+  </div>
+</div>

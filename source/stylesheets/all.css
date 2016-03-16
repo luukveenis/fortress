@@ -146,3 +146,11 @@ nav .active .icon {
 .twitter {
   color: #71C8DD;
 }
+
+.contact-form {
+  margin-top: 50px;
+}
+
+.contact-form textarea {
+  height: 200px;
+}
