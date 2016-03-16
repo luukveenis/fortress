@@ -98,11 +98,22 @@ nav .active .icon {
   background-color: #E6E6E6;
 }
 
+.section-half {
+  margin: 0;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.primary {
+  background-color: #F1F1F1;
+}
+
 .container {
-  margin: 60px 0 0 80px;
+  margin-left: 80px;
 }
 
 .page-title {
+  margin-top: 50px;
   font-weight: 400;
 }
 

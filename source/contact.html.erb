@@ -32,41 +32,43 @@ title: Hi, I'm Luuk Veenis
         </ul>
 <% end %>
 
-<div class="container">
-  <div class="row">
-    <div class="six columns">
-      <h1 class="page-title">Contact Me</h1>
-      <p>
-        If you like what I do, want to talk about a project you have in mind, or just
-        want to follow my ramblings on the internet: the usual social media links are
-        provided below.
-      </p>
-      <div class="social-media">
-        <% link_to 'https://www.facebook.com/luuk.veenis', class: 'social-link' do %>
-          <%= image_tag 'icons/facebook.svg', width: '40px', height: '40px' %>
-          <p class="description facebook">Like me on Facebook</p>
-        <% end %>
+<div class="section-half primary">
+  <div class="container">
+    <div class="row">
+      <div class="six columns">
+        <h1 class="page-title">Contact Me</h1>
+        <p>
+          If you like what I do, want to talk about a project you have in mind, or just
+          want to follow my ramblings on the internet: the usual social media links are
+          provided below.
+        </p>
+        <div class="social-media">
+          <% link_to 'https://www.facebook.com/luuk.veenis', class: 'social-link' do %>
+            <%= image_tag 'icons/facebook.svg', width: '40px', height: '40px' %>
+            <p class="description facebook">Like me on Facebook</p>
+          <% end %>
+        </div>
+        <div class="social-media">
+          <% link_to 'https://ca.linkedin.com/in/luuk-veenis-079aab58', class: 'social-link' do %>
+            <%= image_tag 'icons/linkedin.svg', width: '40px', height: '40px' %>
+            <p class="description linkedin">Connect with me on LinkedIn</p>
+          <% end %>
+        </div>
+        <div class="social-media">
+          <% link_to 'https://plus.google.com/u/0/100731824953089300405/posts', class: 'social-link' do %>
+            <%= image_tag 'icons/google_plus.svg', width: '40px', height: '40px' %>
+            <p class="description google">Follow me on Google+</p>
+          <% end %>
+        </div>
+        <div class="social-media">
+          <% link_to 'https://twitter.com/hashtagluuk', class: 'social-link' do %>
+            <%= image_tag 'icons/twitter.svg', width: '40px', height: '40px' %>
+            <p class="description twitter">Follow me on Twitter</p>
+          <% end %>
+        </div>
       </div>
-      <div class="social-media">
-        <% link_to 'https://ca.linkedin.com/in/luuk-veenis-079aab58', class: 'social-link' do %>
-          <%= image_tag 'icons/linkedin.svg', width: '40px', height: '40px' %>
-          <p class="description linkedin">Connect with me on LinkedIn</p>
-        <% end %>
+      <div class="six columns">
       </div>
-      <div class="social-media">
-        <% link_to 'https://plus.google.com/u/0/100731824953089300405/posts', class: 'social-link' do %>
-          <%= image_tag 'icons/google_plus.svg', width: '40px', height: '40px' %>
-          <p class="description google">Follow me on Google+</p>
-        <% end %>
-      </div>
-      <div class="social-media">
-        <% link_to 'https://twitter.com/hashtagluuk', class: 'social-link' do %>
-          <%= image_tag 'icons/twitter.svg', width: '40px', height: '40px' %>
-          <p class="description twitter">Follow me on Twitter</p>
-        <% end %>
-      </div>
-    </div>
-    <div class="six columns">
     </div>
   </div>
 </div>
