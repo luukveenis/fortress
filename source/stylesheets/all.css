@@ -118,6 +118,20 @@ nav .active .icon {
   margin-left: 80px;
 }
 
+.flex-row {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flex-item.balanced {
+  flex: 1 1 50%;
+}
+
+.contact-img {
+  margin-left: 40px;
+  vertical-align: bottom;
+}
+
 .page-title {
   font-weight: 400;
 }
