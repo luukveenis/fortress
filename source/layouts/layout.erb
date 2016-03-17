@@ -25,22 +25,24 @@
   </head>
 
   <body>
-    <div class="side-nav">
-      <div class="bio">
-        <% link_to '/' do %>
-          <%= image_tag 'avatar_cropped.jpg', width: '200px', class: 'avatar' %>
-        <% end %>
-        <div class='bio-description'>
-          <h1>Luuk Veenis</h1>
-          <p>SOFTWARE DEVELOPER • METAL HEAD</p>
+    <div class="page-wrap">
+      <div class="side-nav">
+        <div class="bio">
+          <% link_to '/' do %>
+            <%= image_tag 'avatar_cropped.jpg', width: '200px', class: 'avatar' %>
+          <% end %>
+          <div class='bio-description'>
+            <h1>Luuk Veenis</h1>
+            <p>SOFTWARE DEVELOPER • METAL HEAD</p>
+          </div>
         </div>
+        <nav class="vertical">
+          <%= yield_content :navbar %>
+        </nav>
       </div>
-      <nav class="vertical">
-        <%= yield_content :navbar %>
-      </nav>
-    </div>
-    <div class="main-content">
-      <%= yield %>
+      <div class="main-content">
+        <%= yield %>
+      </div>
     </div>
   </body>
 </html>
