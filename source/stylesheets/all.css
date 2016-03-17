@@ -151,6 +151,7 @@ nav .active .icon {
   margin: auto 20px;
 }
 
+/* Text colour corresponding to social media sites */
 .facebook {
   color: #385385;
 }
@@ -166,6 +167,7 @@ nav .active .icon {
 .twitter {
   color: #71C8DD;
 }
+/* -------------- end text colours -------------- */
 
 .contact-form textarea {
   height: 200px;
