@@ -41,7 +41,7 @@ nav.vertical li a {
 nav.vertical li .link-text {
   display: inline-block;
   max-width: 300px;
-  padding: 15px 10px;
+  padding: 10px;
 }
 
 nav.vertical .active {
@@ -63,7 +63,7 @@ nav.vertical li:hover {
 nav .icon {
   display: block;
   width: 30px;
-  padding: 15px 20px;
+  padding: 10px 20px;
   font-size: 1.8em;
   color: #999;
 }
