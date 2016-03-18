@@ -28,6 +28,7 @@
 
   <body>
     <div class="page-wrap">
+      <!-- Navigation bar -->
       <div class="side-nav">
         <div class="bio">
           <% link_to '/' do %>
@@ -47,9 +48,13 @@
           <%= yield_content :navbar %>
         </nav>
       </div>
+      <!-- end navigation bar -->
+
+      <!-- Main site content -->
       <div class="main-content">
         <%= yield %>
       </div>
     </div>
+    <!-- end main site content -->
   </body>
 </html>
