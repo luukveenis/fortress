@@ -132,6 +132,11 @@ nav .active .icon {
   display: flex;
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
 .about {
   margin-top: 100px;
 }
@@ -232,4 +237,13 @@ figcaption {
 
 .contact-form textarea {
   height: 200px;
+}
+
+/* Page specific styles that weren't large enough for their own sheet */
+.construction {
+  margin: 100px 0 50px 50px;
+}
+
+.construction-img {
+  fill: #555;
 }

@@ -1,0 +1,45 @@
+---
+title: Blog
+---
+
+<% content_for :navbar do %>
+        <ul>
+          <li>
+            <% link_to 'index.html' do %>
+              <i class="fa fa-user icon"></i>
+              <span class="link-text">About Me</span>
+            <% end %>
+          </li>
+          <li class="active">
+            <% link_to 'blog.html' do %>
+              <i class="fa fa-newspaper-o icon"></i>
+              <span class="link-text">Blog</span>
+            <% end %>
+          </li>
+          <li>
+            <% link_to '#' do %>
+              <i class="fa fa-briefcase icon"></i>
+              <span class="link-text">Portfolio</span>
+            <% end %>
+          </li>
+          <li>
+            <% link_to 'resume.html' do %>
+              <i class="fa fa-file-text-o icon"></i>
+              <span class="link-text">Resume</span>
+            <% end %>
+          </li>
+          <li>
+            <% link_to 'contact.html' do %>
+              <i class="fa fa-phone icon"></i>
+              <span class="link-text">Contact Me</span>
+            <% end %>
+          </li>
+        </ul>
+<% end %>
+
+<div class="container">
+  <div class="flex-col construction">
+    <%= image_tag 'under-construction.svg', width: '50%', height: 'auto', class: 'construction-img' %>
+    <h1>This page is under construction</h1>
+  </div>
+</div>
