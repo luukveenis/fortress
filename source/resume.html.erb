@@ -1,0 +1,228 @@
+---
+title: Resume
+---
+
+<% content_for :stylesheets do %>
+  <%= stylesheet_link_tag "resume" %>
+<% end %>
+
+<% content_for :navbar do %>
+        <ul>
+          <li>
+            <% link_to 'index.html' do %>
+              <i class="fa fa-user icon"></i>
+              <span class="link-text">About Me</span>
+            <% end %>
+          </li>
+          <li>
+            <% link_to '#' do %>
+              <i class="fa fa-newspaper-o icon"></i>
+              <span class="link-text">Blog</span>
+            <% end %>
+          </li>
+          <li>
+            <% link_to '#' do %>
+              <i class="fa fa-briefcase icon"></i>
+              <span class="link-text">Portfolio</span>
+            <% end %>
+          </li>
+          <li class="active">
+            <% link_to 'resume.html' do %>
+              <i class="fa fa-file-text-o icon"></i>
+              <span class="link-text">Resume</span>
+            <% end %>
+          </li>
+          <li>
+            <% link_to 'contact.html' do %>
+              <i class="fa fa-phone icon"></i>
+              <span class="link-text">Contact Me</span>
+            <% end %>
+          </li>
+        </ul>
+<% end %>
+
+<div class="section primary">
+  <div class="container">
+    <h2>Luuk Veenis</h2>
+    <p class="contact-info">
+      luukveenis@gmail.com<br>
+      <a href="tel:2506860403">(250)686-0403</a><br>
+      <% link_to 'https://github.com/luukveenis' do %>
+        <i class="fa fa-github"></i> GitHub
+        <% end %>
+    </p>
+  </div>
+</div>
+<div class="section secondary">
+  <div class="container">
+    <div class="row">
+      <div class="eight columns">
+        <h3>About Me</h3>
+        <p class="resume-content">
+        I am a recent Univeristy of Victoria grad from the Computer Science (B.Sc.)
+        program. I'm a full-stack web developer with experience building large-scale
+        eCommerce applications with the Ruby on Rails framework. I have passion for
+        writing high-quality code and solving challenging problems.
+        </p>
+        <p>
+        I was born and grew up in The Netherlands and as a result am fluent in both
+        Dutch and English. I also maintain dual citizenship and am able to work
+        unrestricted throughout the EU.
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section primary">
+  <div class="container">
+    <h3>Education</h3>
+    <div class="row">
+      <div class="six columns">
+        <h4 class="inline">University of Victoria</h4>
+        <span class="timeframe">2011-Present</span><br>
+        <p>
+        Victoria, B.C.<br>
+        Major: Computer Science (B.Sc.)<br>
+        Graduation: Spring 2016<br>
+        Cumulative GPA: 8.61 (9-point scale)
+        </p>
+      </div>
+      <div class="six columns">
+        <h4>Relevant Courses</h4>
+        <ul class="resume-items">
+          <li>Software Development in Java, C, Python, and ARM assembly</li>
+          <li>Software Architecture</li>
+          <li>Compiler Construction</li>
+          <li>UML and Design Patterns</li>
+          <li>Database Systems</li>
+          <li>Computer Networks</li>
+          <li>Operating Systems</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section secondary">
+  <div class="container">
+    <h3>Work Experience</h3>
+    <div class="row">
+      <div class="ten columns">
+        <h4 class="inline">Stembolt</h4>
+        <span class="timeframe">May 2014 - September 2014</span><br>
+        <ul class="resume-items">
+          <li>
+            Implemented features for large eCommerce applications built using
+            Ruby on Rails
+          </li>
+          <li>
+            Employed a Test Driven Development approach, ensuring 100% code coverage
+          </li>
+          <li>
+            Gained extensive experience implementing backend features in Ruby
+          </li>
+          <li>
+            Improved my skills implementing frontend designs using HTML, CSS/SASS,
+            and Javascript/Coffeescript
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="ten columns">
+        <h4 class="inline">IBM</h4>
+        <span class="timeframe">September 2013 - December 2013</span><br>
+        <ul class="resume-items">
+          <li>
+            Developed automated tests using Selenium WebDriver
+          </li>
+          <li>
+            Worked extensively with XML based forms
+          </li>
+          <li>
+            Researched and implemented new test deployment tools
+          </li>
+          <li>
+            Improved cross-browser compatibility of existing feature test suite
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="ten columns">
+        <h4 class="inline">Seeker Solutions</h4>
+        <span class="timeframe">January 2013 - April 2013</span><br>
+        <ul class="resume-items">
+          <li>
+            Provided in-house IT support for a company of approximately 70 people
+          </li>
+          <li>
+            Managed my own work with minimal supervision
+          </li>
+          <li>
+            Utilized different ticketing systems to manage and track the progress
+            of tasks
+          </li>
+          <li>
+            Documented tasks and procedures to reduce work in the future
+          </li>
+          <li>
+            Implemented features for a plugin for Atlassian Stash to integrate with
+            Jenkins
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section primary">
+  <div class="container">
+    <h3>Awards and Citations</h3>
+    <div class="row">
+      <div class="eight columns">
+        <ul class="resume-items">
+          <li>
+            Pathway of Excellence Co-op Award
+            <span class="timeframe"> (Seeker Solutions, spring 2013)</span>
+          </li>
+          <li>
+            President's Scholarship
+            <span class="timeframe"> (UVic, fall 2012)</span>
+          </li>
+          <li>
+            President's Scholarship
+            <span class="timeframe"> (UVic, fall 2013)</span>
+          </li>
+          <li>
+            President's Scholarship
+            <span class="timeframe"> (UVic, fall 2014)</span>
+          </li>
+          <li>
+            President's Scholarship
+            <span class="timeframe"> (UVic, fall 2015)</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section secondary">
+  <div class="container">
+    <h3>Hobbies and Interests</h3>
+    <div class="row">
+      <div class="ten columns">
+          <ul class="resume-items">
+            <li>
+              I love programming and work on personal projects in my spare time
+              when I get the chance
+            </li>
+            <li>
+              I enjoy both listening to and playing music (bass primarily)
+            </li>
+            <li>
+              Victoria is a beautiful place and I enjoy anything that gets me out
+              of the house to explore it
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

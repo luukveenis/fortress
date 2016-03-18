@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* These are all styles relating to the resume.html page */
+
+h4 {
+  font-size: 2.7rem;
+  margin-bottom: 5px;
+}
+
+/* Allows dates to sit beside the headings */
+h4.inline {
+  display: inline-block;
+}
+
+.timeframe {
+  font-style: italic;
+  margin-left: 10px;
+}
+
+/* Decrease spacing between list items */
+.resume-items li {
+  margin-bottom: 0.8rem;
+}
+
+.contact-info {
+  font-size: 1.2em;
+}
+
+/* Underlined links are ugly */
+.contact-info a {
+  text-decoration: none;
+}

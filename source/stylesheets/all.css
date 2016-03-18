@@ -140,7 +140,7 @@ nav .active .icon {
   align-items: flex-end;
 }
 
-.flex-item {
+.flex-item.gutter {
   margin-bottom: 30px;
 }
 
