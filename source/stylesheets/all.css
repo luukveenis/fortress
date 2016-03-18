@@ -10,6 +10,15 @@ body {
   font-family: Raleway, sans-serif;
 }
 
+.about p, .experience p {
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+img {
+  vertical-align: bottom;
+}
+
 /* -------- Navigation Styles -------- */
 
 .side-nav {
@@ -121,17 +130,68 @@ nav .active .icon {
 
 .flex-row {
   display: flex;
+}
+
+.about {
+  margin-top: 100px;
+}
+
 .flex-row.down {
   align-items: flex-end;
+}
+
+.flex-item {
+  margin-bottom: 30px;
 }
 
 .flex-item.balanced {
   flex: 1 1 50%;
 }
 
+.item-primary {
+  flex: 1 1 60%;
+}
+
+.item-secondary {
+  flex: 1 1 40%
+}
+
+/* Position the description under the image on smaller screens */
+@media (max-width: 900px) {
+  .flex-row {
+    flex-wrap: wrap;
+  }
+
+  .item-primary, .item-secondary {
+    flex: 1 1 100%;
+  }
+}
+
+.flex-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.img-wrap {
+  position: relative;
+}
+
+.img-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  background-color: rgba(12, 12, 12, 0.70);
+  color: #EEE;
+  overflow: hidden;
+}
+
+figcaption {
+  padding: 15px;
+}
+
 .contact-img {
   margin-left: 40px;
-  vertical-align: bottom;
 }
 
 .page-title {
